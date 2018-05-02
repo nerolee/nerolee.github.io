@@ -1,0 +1,2641 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.2.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.2.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.2.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '6.2.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"搜索","hits_empty":"没有找到与 ${query} 相关的内容","hits_stats":"共找到 ${hits} 条结果，耗时 ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Nero&#39;s blog">
+<meta property="og:url" content="http://www.nero.wiki/index.html">
+<meta property="og:site_name" content="Nero&#39;s blog">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Nero&#39;s blog">
+
+
+
+
+
+
+  <link rel="canonical" href="http://www.nero.wiki/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Nero's blog</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nero's blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Where amazing happens</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.nero.wiki/2018/05/02/《Effective-Objective-C》读后感1-8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nero Li">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nero's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/02/《Effective-Objective-C》读后感1-8/" itemprop="url">
+                  《Effective Objective-C》读后感1-8
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-05-02 13:30:55 / 修改时间：13:42:22" itemprop="dateCreated datePublished" datetime="2018-05-02T13:30:55+08:00">2018-05-02</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Effective-Objective-C/" itemprop="url" rel="index"><span itemprop="name">Effective Objective-C</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="1-Familiarize-Yourself-with-Objective-C’s-Roots"><a href="#1-Familiarize-Yourself-with-Objective-C’s-Roots" class="headerlink" title="1. Familiarize Yourself with Objective-C’s Roots"></a>1. Familiarize Yourself with Objective-C’s Roots</h4><p>OC是C的完全超集，其中一个很大的区别是C语言为函数调用，而OC为消息传递。这其中一个主要的区别在于消息传递会在运行时决定哪些消息被发送到哪些对象，而函数调用在编译时就确定了这些事情。也正因为此，OC的运行时就必须包含所有数据和函数。也正因为这个，只要运行时（系统）升级之后，使用OC的App也就自动地享有了这些升级带来的优化。而更注重编译时的语言，则需要重新编译之后才能享有这些优化。</p>
+<p>OC的一个对象数据如： <code>NSString* string = @ &quot;abc&quot;;</code> 它的内存情况其实是一个在Stack中开辟的一个指针空间（在32位的设备上是4个bytes，在64位上是8个bytes）指向了一个在Heap上开辟的存abc这个字符串的空间。</p>
+<h4 id="2-Minimize-Importing-Headers-in-Headers"><a href="#2-Minimize-Importing-Headers-in-Headers" class="headerlink" title="2. Minimize Importing Headers in Headers"></a>2. Minimize Importing Headers in Headers</h4><p>尽量使用@class来避免在头文件中import 另一个类的头文件</p>
+<h4 id="3-Prefer-Literal-Syntax-over-the-Equivalent-Methods"><a href="#3-Prefer-Literal-Syntax-over-the-Equivalent-Methods" class="headerlink" title="3. Prefer Literal Syntax over the Equivalent Methods"></a>3. Prefer Literal Syntax over the Equivalent Methods</h4><p>尽量使用类似如下的代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">NSNumber *intNumber = @1;</span><br><span class="line">NSArray *animals = @[@&quot;cat&quot;, @&quot;dog&quot;, @&quot;mouse&quot;, @&quot;badger&quot;];</span><br><span class="line">NSDictionary *dic = @&#123;@&quot;key1&quot;: @&quot;value1&quot;, @&quot;key2&quot;: @&quot;value2&quot;&#125;;</span><br></pre></td></tr></table></figure>
+<h4 id="4-Prefer-Typed-Constants-to-Preprocessor-define"><a href="#4-Prefer-Typed-Constants-to-Preprocessor-define" class="headerlink" title="4. Prefer Typed Constants to Preprocessor #define"></a>4. Prefer Typed Constants to Preprocessor #define</h4><p>尽量少用#define来定义常量，而是使用如下的方式定义常量：<br><code>static const NSTimeInerval kAnimationDuration = 0.3;</code><br>这种方式保证了为编译器提供了类型检查（新版本的Xcode似乎在#define中也能做类型检测）。另外，const保证了定义的是一个常量。 static保证了这个常量是在一个.m中local的，不会和其他文件中相同的名字的变量产生冲突，因为本质上，如果加了static关键字后编译器就会在编译的时候想#define一样，将定义的内容直接展开到对应的代码中。<br>对于NSNotificaiton中使用的name，建议使用的定义方式如下：<br><code>extern NSString *const XXXXDidFinishLoginNotification;</code></p>
+<h4 id="5-Use-Enumerations-for-States-Options-and-Status-Codes"><a href="#5-Use-Enumerations-for-States-Options-and-Status-Codes" class="headerlink" title="5. Use Enumerations for States, Options, and Status Codes"></a>5. Use Enumerations for States, Options, and Status Codes</h4><p>在switch case代码段中，不要去写default，这样的话，当你在枚举中添加新的元素的时候，编译器就给出提示，因为代码中并没有将所有枚举中的情形都覆盖全。</p>
+<h4 id="6-Understand-Properties"><a href="#6-Understand-Properties" class="headerlink" title="6. Understand Properties"></a>6. Understand Properties</h4><h4 id="7-Access-Instance-Variables-Primarily-Directly-When-Accessing-Them-Internally"><a href="#7-Access-Instance-Variables-Primarily-Directly-When-Accessing-Them-Internally" class="headerlink" title="7. Access Instance Variables Primarily Directly When Accessing Them Internally"></a>7. Access Instance Variables Primarily Directly When Accessing Them Internally</h4><p>当在类的内部访问成员变量的时候，直接访问成员变量和使用property访问有几点区别：<br>直接访问变量可以直接获得希望获得的数据或直接修改对应的值，而使用property访问将会出发消息传递的机制，使得可能出现因运行时而产生的意外，因此，从某种程度上说，直接访问将会更加“安全”。<br>直接访问将会绕过变量的内存管理机制。（似乎最新的版本中并不会绕过）<br>直接访问将不会触发KVO通知。（存疑）<br>使用property会更加方便调试，可以在setter和getter中加断点。（直接访问的话，watch似乎也能解决一部分问题）</p>
+<p>类的内部直接访问成员变量有几个需要注意的点：<br>在初始化函数中给成员变量赋值的时候，使用直接访问的方式进行赋值：子类可能会重载setter函数，从而产生意外的情况。<br>对于一些Lazy初始化的变量，如果使用直接访问的话，可能导致这个变量无法被正常初始化。</p>
+<h4 id="8-Understand-Object-Equality"><a href="#8-Understand-Object-Equality" class="headerlink" title="8. Understand Object Equality"></a>8. Understand Object Equality</h4>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.nero.wiki/2017/07/20/OC可变参数函数/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nero Li">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nero's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/20/OC可变参数函数/" itemprop="url">
+                  OC可变参数函数
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-07-20 23:44:53" itemprop="dateCreated datePublished" datetime="2017-07-20T23:44:53+08:00">2017-07-20</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-02 11:48:13" itemprop="dateModified" datetime="2018-05-02T11:48:13+08:00">2018-05-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天实现一个功能的时候需要用到可变参数，突然发现这些平时不常用的小技巧自己掌握地还不是很好，基本上用到了都要去网上搜，与其去其他地方找，还不如自己把这些小技巧都收集起来，也方便自己以后使用。于是有了这个Tag的开篇。</p>
+<p>话不多说，直接上代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">+(instancetype)tupleWithObjects:(id)object, ...NS_REQUIRES_NIL_TERMINATION</span><br><span class="line">&#123;</span><br><span class="line">    Tuple *tuple = [[Tuple alloc] init];</span><br><span class="line">    NSMutableArray *objects = [[NSMutableArray alloc] init];</span><br><span class="line">    va_list argList;</span><br><span class="line">    if(object != nil)</span><br><span class="line">    &#123;</span><br><span class="line">        [objects addObject:object];</span><br><span class="line">        va_start(argList, object);</span><br><span class="line">        id arg;</span><br><span class="line">        while((arg = va_arg(argList, id))) &#123;</span><br><span class="line">            [objects addObject:arg];</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        va_end(argList);</span><br><span class="line">        </span><br><span class="line">        [tuple.objects addObjectsFromArray:objects];</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    return tuple;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>值得注意的是，在调用可变参数的函数时，记得要在最后一个参数后加上nil，否则在调用arg=va_arg(argList, id)时会发生Crash。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.nero.wiki/2017/01/23/浅谈iOS签名机制/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nero Li">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nero's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/01/23/浅谈iOS签名机制/" itemprop="url">
+                  浅谈iOS签名机制
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-01-23 23:33:40" itemprop="dateCreated datePublished" datetime="2017-01-23T23:33:40+08:00">2017-01-23</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-02 11:48:13" itemprop="dateModified" datetime="2018-05-02T11:48:13+08:00">2018-05-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>“Users appreciate code signing.” –<a href="https://developer.apple.com/library/content/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html" target="_blank" rel="noopener">《Apple Developer Library:About Code Signing》</a></p>
+</blockquote>
+<p><em>P.S. 苹果已经无耻地在最新的文档里删掉了这行描述，想来苹果估计也发现了code signing并没有被users appreciate，对于普通用户而言，根本不需要关注code signing，而对于开发者而言，code signing简直就是噩梦~！</em></p>
+<p>下面我粗略谈一谈对于code signing的一些浅显的认识，其中很多部分是源于<a href="https://developer.apple.com/library/content/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html" target="_blank" rel="noopener">《Apple Developer Library:About Code Signing》</a></p>
+<h4 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h4><p>因为Code Signing机制涉及到加密技术，下面简略说明一下常用的加密技术，如果已经非常了解相关知识，请略过这部分内容。</p>
+<p><strong>对称加密和非对称加密：</strong>顾名思义，对称加密就是用来加密和解密的密钥是同一个，平常在项目里常用到的AES就是典型的对称加密。非对称加密指的就是加密和解密的密钥是不用的，有一把公钥，一把私钥，如果使用公钥加密，就得用私钥进行解密，而使用私钥加密就得用公钥进行解密，如常用的RSA就是非对称加密。</p>
+<p>优缺点：对称加密使用相同的密钥进行加解密，所以效率非常高，但是由于解密一方也必须知道密钥，那么密钥势必就得通过某种途径进行传输，这就造成了密钥不安全的情况。非对称加密正好和对称加密相反，它的特点就是，加解密效率较低，但是安全性高。所以通常的做法是将两者结合使用，即使用对称加密的方式对正文进行加密，使用非对称加密的方式对密钥进行加密。</p>
+<p><strong>数字签名:</strong> 数字签名技术类似现实生活中的印章和签名，主要的作用是保证内容没有被修改，以及签名方无法进行抵赖。数字签名技术简单来讲就是发送方采用特定的算法产生正文的摘要，然后使用发送方的私钥进行加密，接收方收到数字签名后，使用发送方的公钥进行解密，然后比对正文摘要，如果相同，表示该数字签名是合法的，否则就是有问题的。</p>
+<p><strong>数字证书: </strong>数字证书是由权威机构－－CA证书授权（Certificate Authority）中心发行的，能提供在Internet上进行身份验证的一种权威性电子文档，人们可以在互联网交往中用它来证明自己的身份和识别对方的身份。</p>
+<h4 id="Code-Signing的好处"><a href="#Code-Signing的好处" class="headerlink" title="Code Signing的好处"></a>Code Signing的好处</h4><p>书归正题，下面我们开始讲讲Code Signing的好处。</p>
+<ul>
+<li><p>保证代码不会被篡改</p>
+</li>
+<li><p>明确代码的来源，Code Signing可以描述一个App是由谁进行签名的：Apple或者特定的开发者，或者其他一些组织和机构。</p>
+</li>
+<li><p>决定代码是否可以继续访问特定的数据，因为iOS的隐私管理机制，App在第一次访问如相册，通讯录等数据时会询问用户是否允许，一旦允许后后续再对这些数据进行访问的时候就不再进行询问，但是如果App的版本进行了更新，对于系统而言，一个新的版本其实就是一个新的App，系统就是通过Code Signing来判断这个版本是否可以继续访问这些隐私数据。</p>
+</li>
+</ul>
+<h4 id="Code-Signing不能保证的"><a href="#Code-Signing不能保证的" class="headerlink" title="Code Signing不能保证的"></a>Code Signing不能保证的</h4><ul>
+<li><p>无法保证经过签名的代码是没有安全问题的。</p>
+</li>
+<li><p>无法保证App是否会在运行过程中加载不安全，没经过签名的代码。</p>
+</li>
+<li><p>无法提供数字产权保护(DRM)和copy protection technology</p>
+</li>
+</ul>
+<h4 id="iOS-Code-Signing工作原理"><a href="#iOS-Code-Signing工作原理" class="headerlink" title="iOS Code Signing工作原理"></a>iOS Code Signing工作原理</h4><p>iOS的签名设置简直就是一项不能更加坑爹的工作了，当你潇潇洒洒写完一大段代码后，因为签名设置的问题被Xcode各种报错的时候，心中必然会有一万只草泥马奔过。<br>下面大致来聊一聊iOS整个签名过程。</p>
+<h4 id="组成"><a href="#组成" class="headerlink" title="组成"></a>组成</h4><ul>
+<li><p>CertificateSigningRequest.certSigningRequest，这个文件是在Certificate Assistant中生成的，本质上这个文件就是一个申请书，里面描述了申请人的信息，申请人的公钥，还有摘要文件和公钥的加密算法。一般情况下开发者是不需要关心这个文件的（除非你还是你们公司ADP的管理人员）可以使用<code>openssl asn1parse -i -in CertificateSigningRequest.certSigningRequest</code>查看CSR文件。</p>
+</li>
+<li><p>Certificate文件，使用上面的CSR能够在Apple Developer Member Center中生成对应的certificate文件，可以使用<code>openssl x509 -inform der -in ios_development.cer -noout -text</code>对生成的.cer文件进行查看。双击这个.cer文件之后就会在Keychain中添加一个certificate文件，如果这时候你有刚才生成CSR的私钥，那么你的certificate就可以使用了，否则的话就需要导入对应的私钥。</p>
+</li>
+<li><p>mobileprovision文件，严格来说mobileprovision文件已经不属于签名的范畴了，它其实是一个描述文件，用来描述app所使用的某些服务是被苹果认可的，比如APN推送服务以及限制app的装机规模。如果没有这个玩意，每个app开发者就可以自己签app然后放到自己的网站上供用户下载，谁还提交到AppStore，审批时间又长，还可能各种被拒。使用<code>security cms -D -i</code>命令可以查看一个mobileprovision文件的内容，这个文件主<br>要描述了下面这些内容：</p>
+</li>
+<li><p>被描述的App的信息，AppIDName， App Bundle ID等。</p>
+</li>
+<li><p>使用哪些Certificate，所以如果你有一个certificate,有一个和certificate匹配的私钥，也有一个mobileprovision文件，但是你的mobileprovision文件和certificate是不匹配的，那么还是无法真机调试。<br>功能授权列表，用来描述这个App能够使用哪些功能，如APN，IAP等。<br>这个描述文件允许的Device UDID列表，只有在这个列表中的设备，才可以安装这个App。至于企业签名的描述文件，则没有ProvisionedDevices这个字段，取而代之的是一个叫ProvisionsAllDevices的字段，这个字段值为true。当然了，这个文件本身是被苹果做过签名的，所以什么自己在ProvisionedDevices下面加一个Device的UDID事情就不要多想了。</p>
+</li>
+<li><p>Certificate的公钥，关于这点，貌似并没有在命令的输出中体现出来，所以不要问我是怎么知道的，因为我是猜的！既然Xcode使用私钥对App进行签名，那么就一定要有一个机制将对应的公钥放到App中，这样App在运行之前才可以用公钥来对数字签名进行解密，从而认证App的合法性。而每个App编译完成后在它的content下一定有一个embedded.mobileprovision文件。而上面提到过certificate文件是有我的公钥信息的，而mobileprovision文件是一定要通过certificate文件才能生成的，我实在想不到有什么理由苹果不将公钥放到mobileprovision文件中。</p>
+</li>
+<li><p>过期时间等其他信息。</p>
+</li>
+<li><p>_CodeSignature文件夹，在每个经过签名的iOS app文件下都有一个叫_CodeSignature的文件夹，这个文件夹下有一个叫CodeResources的文本文件。其实这个文件本质上就是一个plist，其中描述的就是每个资源文件的签名信息。至于程序本身的二进制文件，签名信息应该是直接写入到这个二进制文件中的。这个文件的存在就保证了app在被签名之后，其中的任何资源发生了修改，在进行签名验证的时候都会出现问题，而导致验证不过。可以使用codesign –verify Sample.app来对app的签名进行验证，如果这个命令没有输出任何内容，那么签名验证就是通过的。</p>
+</li>
+<li><p>entitlement文件，当你在程序中打开如APN，Associated Domains，App Groups等功能时，Xcode会帮你自动生成一个entitlement文件，而这个文件也将会作为codesign的参数传入，如果你的entitlement文件和mobileprovision文件中描述的不一致，也会造成app安装后的校验不通过，导致app无法被正常安装。</p>
+</li>
+</ul>
+<h4 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h4><ol>
+<li>在程序完成编译后，Xcode会使用codesign，通过certificate文件下的私钥对app进行签名。可以使用codesign -vv -d Example.app查看app的签名信息。</li>
+<li>校验BundleID等信息</li>
+<li>使用embedded.mobileprovision下的公钥来进行程序是否被篡改的校验。</li>
+<li>使用embedded.mobileprovision和entitlement文件校验功能授权列表。</li>
+</ol>
+<p><em>上面的过程中的顺序不一定是真正校验的顺序，上面列举的校验步骤也不一定是完整的校验步骤，一切都是我个人的猜测。</em></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.nero.wiki/2016/12/13/iOS项目中添加自定义宏/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nero Li">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nero's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/12/13/iOS项目中添加自定义宏/" itemprop="url">
+                  iOS项目中添加自定义宏
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-12-13 23:28:00" itemprop="dateCreated datePublished" datetime="2016-12-13T23:28:00+08:00">2016-12-13</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-02 11:48:13" itemprop="dateModified" datetime="2018-05-02T11:48:13+08:00">2018-05-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>最近公司的项目都切到了Git上，之前在使用SVN的时候，BuildServer在编译版本的时候会自动将SVN版本号同时打到编译出来的包中，这样我们在提交测试或者提交到ITC的时候可以由开发的同学们再Double Check一遍版本号，保证提交的版本不会有问题。但是Git上是不存在SVN版本号这样一个东西的，那么我们该如何追踪呢，下面介绍一下我想到的一个办法：</p>
+<p>在项目配置中选中PROJECT（不是某一个Target，如果选中的是某一个Target的话，需要给为所有Target都操作一遍），点击Build Settings选项，添加User-Defined Setting，将Key设置为：<code>IS_GIT_COMMIT</code>，Value本地随便填。具体操作如下图：<br><img src="/2016/12/13/iOS项目中添加自定义宏/GitCommit_1.jpg" alt="我是图片"></p>
+<p>在Build Settings搜索macros，在Preprocessor Macros中添加一项：<br><code>GitCommit=&quot;@\&quot;$(IS_GIT_COMMIT)\&quot;&quot;</code><br><img src="/2016/12/13/iOS项目中添加自定义宏/GitCommit_2.jpg" alt="我是图片"></p>
+<p>在项目中就可以正常使用GitCommit这个宏了:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">NSString *gitCommit = GitCommit;</span><br><span class="line">NSLog(@&quot;%@&quot;, gitCommit);</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.nero.wiki/2016/08/19/关于Swift编译慢并没什么卵用的解决办法/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nero Li">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nero's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/08/19/关于Swift编译慢并没什么卵用的解决办法/" itemprop="url">
+                  关于Swift编译慢并没什么卵用的解决办法
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-08-19 23:25:07" itemprop="dateCreated datePublished" datetime="2016-08-19T23:25:07+08:00">2016-08-19</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-02 11:48:13" itemprop="dateModified" datetime="2018-05-02T11:48:13+08:00">2018-05-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>目前开发中的项目使用了Swift和OC混编的，在感慨Swift本身的强大的前提下，也不得不面对引入Swfit带来的问题，比如App包的变大，比如Xcode对于Swift的支持不如OC等等，但是，对我来讲，最坑爹的还是引入了Swfit之后编译速度慢成了狗。<br>如果大家还没有体会过Swift的编译速度能够慢到什么程度，请义无反顾地将下面的代码加入到工程中去:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">let myCompany = [</span><br><span class="line">    &quot;employees&quot;: [</span><br><span class="line">        &quot;employee 1&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 2&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 3&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 4&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 5&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 6&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 7&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 8&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 9&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 10&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 11&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 12&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 13&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 14&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 15&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 16&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 17&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 18&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 19&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">        &quot;employee 20&quot;: [&quot;attribute&quot;: &quot;value&quot;],</span><br><span class="line">    ]</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<p>OK, 在项目里加上上面的代码之后，如果不出什么意外的话（相信我，应该不会出什么意外的，除非你的开发机是一台超级计算机）你就可以双手离开键盘，起身出去吃饭了，如果运气好的话，你的项目应该能够在你吃完饭之后成功编译，当然了，其实我根本就没有成功编译这段代码，所以他具体要花多长时间我并不知，可能是一顿饭的时间，也可能需要天荒地老，海枯石烂 。</p>
+<p>OK，回归正题，我们来讲一下，如何来提高Swift的编译速度，在讲如何提高Swfit的编译速度之前，我们先来将一些全局的设置，当然了，只要是对于Debug而言的，首先，在Build Settings的Debug Information Format中，见Debug得格式改为DWARF，因为我们在Debug的过程中一般是不需要这些Crash Symbol的，另外，Build Settings的Build Active Architecture Only，将Debug改为Yes，也就是说只编译当前选中的设备的架构，否则的话，编译时编译器就会将所有支持的Architecture都编一次（一般来讲现在都是armv7和arm64）。<br>好了，讲过这些通用的设置之后，我们来看一下加入了Swift之后App编译的过程。</p>
+<p>如果有CocoaPods的话，编译对应的.a或者framework<br>编译xib等资源文件<br>编译Swift文件<br>编译.m， .cpp等文件<br>通常情况下，耗时最长的就是编译swift文件了，而且在编译的时候不像是编译.m文件，Xcode连个进度都不给，所以给人的感觉就是卡在这步不动了。</p>
+<p>至于为什么编swift文件会这么慢，这里就要借助编译提供的额外的信息了。<br>还是Build Settings中，在Other Swift Flags中加入-Xfrontend -debug-time-function-bodies然后就可以在编译输出的界面看到每个函数编译花费的时间了。<br>当然了，更加简单的方法就是加一个Xcode的插件BuildTimeAnalyzer-for-Xcode</p>
+<p>之后就是根据编译的时间来找茬了，下面列几个特别毁三观的情况，大家自己看。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">let tableHeight = CGFloat(80 * 2 + 50 + 52 + 35) //3.1ms</span><br><span class="line">let tableHeight:CGFloat = 80 * 2 + 50 + 52 + 35 //1588ms</span><br></pre></td></tr></table></figure>
+<p>两行代码编译时间差了500多倍，三观尽毁</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">//写法一</span><br><span class="line">contactInfoArray.appendContentsOf(mobileItems)</span><br><span class="line">contactInfoArray.appendContentsOf(telItems)</span><br><span class="line">contactInfoArray.appendContentsOf(faxItems)</span><br><span class="line">//写法二</span><br><span class="line">contactInfoArray.appendContentsOf(mobileItems + telItems + faxItems)</span><br><span class="line">写法一比写法二在编译时快了2000多ms</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">//写法一</span><br><span class="line">if let index = localMessageIDs.indexOf(kCCAssistantMessageIDCardClaim) &#123;</span><br><span class="line">    if index &lt; messageShowncount &#123;</span><br><span class="line">        if let oneMessage = messageObjectArray[index] as? CCAssistantMessageType6 &#123;</span><br><span class="line">            if oneMessage.localMessageID == kCCAssistantMessageIDCardClaim &#123;</span><br><span class="line">                oneMessage.fetchUm03UpdateInfo()</span><br><span class="line">                dispatch_async(dispatch_get_main_queue(), &#123;</span><br><span class="line">                    let indexStr = &quot;\(index)&quot;</span><br><span class="line">                    NSNotificationCenter.defaultCenter().postNotificationName(CCMessageAssistantDidUpdateMessagesNotification, object: nil, userInfo: [kMessageUpdateTypeModify:indexStr])</span><br><span class="line">                    </span><br><span class="line">                &#125;)</span><br><span class="line">                ISSwiftInfo(&quot;Signal&quot;)</span><br><span class="line">                dispatch_semaphore_signal(IOSemaphore)</span><br><span class="line">                return</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">//写法二</span><br><span class="line">if let index = localMessageIDs.indexOf(kCCAssistantMessageIDCardClaim) &#123;</span><br><span class="line">    if index &lt; messageShowncount &#123;</span><br><span class="line">        if let oneMessage = messageObjectArray[index] as? CCAssistantMessageType6 &#123;</span><br><span class="line">            if oneMessage.localMessageID == kCCAssistantMessageIDCardClaim &#123;</span><br><span class="line">                oneMessage.fetchUm03UpdateInfo()</span><br><span class="line">                dispatch_async(dispatch_get_main_queue(), &#123;</span><br><span class="line">                    NSNotificationCenter.defaultCenter().postNotificationName(CCMessageAssistantDidUpdateMessagesNotification, object: nil, userInfo: [kMessageUpdateTypeModify:&quot;\(index)&quot;])</span><br><span class="line">                    </span><br><span class="line">                &#125;)</span><br><span class="line">                ISSwiftInfo(&quot;Signal&quot;)</span><br><span class="line">                dispatch_semaphore_signal(IOSemaphore)</span><br><span class="line">                return</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>写法一比写法二编译时快600ms</p>
+<p>另外，再介绍一个最大的坑，在查看函数编译时间的时候，会发现有些swift文件的getter方法或者closure会被编译几百次，成为编译速度慢的罪魁祸首，最后分析下来，原来都是lazy （Lazy关键字的解释）这个关键字搞得鬼，只要是被lazy修饰的变量，会在每个swfit文件被编译的时候都编译一次，简直就是坑爹。</p>
+<p>好了，稍微总结一下，根本原则就是，如果希望编译速度更快，那么就在代码中更多地显示声明变量的类型啦，容器元素的类型啦等等。就是不要让编译器在编译的时候帮你去分析类型。总得来讲就是，写代码写得越爽，编译时间很可能就会变长。</p>
+<p>最后，点一下题吧，为什么说没什么卵用的解决方法呢，首先，lazy这个关键字没法去啊，去了之后编译的时间是变短了，但是运行的效率也降低了。另外一个最最关键的原因，架不住文件多啊，每个文件几百ms，几千个文件一加就崩溃了，另外还得加上CocoaPods的编译，xib资源文件的编译，以及.m这些文件的编译。总的来讲，就是——并没什么卵子用！</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.nero.wiki/2016/01/26/在iOS9中突破微信App跳转的限制/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nero Li">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nero's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/01/26/在iOS9中突破微信App跳转的限制/" itemprop="url">
+                  在iOS9中突破微信App跳转的限制
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-01-26 23:21:01" itemprop="dateCreated datePublished" datetime="2016-01-26T23:21:01+08:00">2016-01-26</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-02 11:48:13" itemprop="dateModified" datetime="2018-05-02T11:48:13+08:00">2018-05-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>微信的普及程度相信不需要多言了，稍微回忆一下自己上一条短信是什么时候，上一条微信又是什么时候就知道了。<br>因此通过微信传播也是绝大部分App的一个重要手段，但是在iOS7微信出的新版本，就开始不允许从微信直接跳转到对应的App中了。<br>所谓上有政策，下有对策，各大App纷纷想出自己的解决方案，目前最最流行的就是在点击跳转到自己的App的时候出现一个蒙板，然后一个箭头指向右上角的更多按钮，然后用户从Safari打开当前网页，然后点击跳转。<br>这个版本算是一种无奈的妥协吧，毕竟用户用起来还是有点蛋疼的。<br>最近博主的一个Boss发现网易新闻竟然能直接从微信里打开自己的App，于是乎~这个“艰巨”的任务就落到了我的头上。中间研究的过程就不再赘述，隆重请出使用到的技术：iOS9 Universal Links！<br>这里不禁要夸一夸网易的iOS开发同学们，看文档看得够仔细啊！<br>附上Apple的官方文档，What’s new in iOS<br>不知大家能否在Search那一栏中找到Universal links:</p>
+<blockquote>
+<p>Universal links let you replace custom URL schemes with standard HTTP or HTTPS links. Universal links work for all users: If users have your app installed, the link takes them directly into your app; if they don’t have your app installed, the link opens your website in Safari. To learn more about universal links, see Support Universal Links.</p>
+</blockquote>
+<p>P.S.该技术目前只能应用在iOS9中。</p>
+<h4 id="开搞"><a href="#开搞" class="headerlink" title="开搞"></a>开搞</h4><p>OK，我们开搞。</p>
+<ol>
+<li>首先，参照上面提到的文档，创建一个叫apple-app-site-association的json文件(请不要加上.json或者其他任何后缀名)，文件的大致内容如下:</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;applinks&quot;: &#123;</span><br><span class="line">        &quot;apps&quot;: [],</span><br><span class="line">        &quot;details&quot;: [</span><br><span class="line">            &#123;</span><br><span class="line">                &quot;appID&quot;: &quot;9JA89QQLNQ.com.apple.wwdc&quot;,</span><br><span class="line">                &quot;paths&quot;: [ &quot;/wwdc/news/&quot;, &quot;/videos/wwdc/2015/*&quot;]</span><br><span class="line">            &#125;</span><br><span class="line">        ]</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>下面来解释一下这个json文件里的字段：</p>
+<p><strong>apps:</strong> 目前只需要提供一个空数组就可以了，但是这个字段必须提供，不可不填。<br><strong>appID:</strong>appID的格式大致是这样的：TeamID.App Bundle ID,以文档中提供的例子来说，Apple出的WWDC的应用的开发者Team的Team ID为：9JA89QQLNQ，这个应用的BundleID为：com.apple.wwdc。<br><strong>paths:</strong>希望Safari在访问哪个路径时，跳转到对应的App，可以使用*作为通配符。</p>
+<ol start="2">
+<li><p>将准备好的apple-app-site-association上传到web网站的根目录下。</p>
+</li>
+<li><p>配置App的Entitlements file：选中App的Target，在Capabilities中打开Associated Domains</p>
+</li>
+</ol>
+<p>切记关联的域名需要使用applinks:作为开头。</p>
+<ol start="4">
+<li>在AppDelegate中实现对应的delegate，大致代码如下：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">-(BOOL)application:(UIApplication *)application </span><br><span class="line">continueUserActivity:(NSUserActivity *)userActivity </span><br><span class="line">restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler&#123;</span><br><span class="line">    if (userActivity.webpageURL != nil)</span><br><span class="line">    &#123;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>userActivity中的webpageURL就是对应的从Web端跳转而来的网址，其中可以带上各种参数来供App进行不通的判断和操作。</p>
+<ol start="5">
+<li>Web页面上的JS代码大致如下：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">var open_app = document.getElementById(&apos;open_app&apos;);</span><br><span class="line">btn_open.addEventListener(&apos;click&apos;, function() &#123;</span><br><span class="line">	open_app.src = &apos;https://www.domain.com/site/download?force=1&apos;;</span><br><span class="line">	setTimeout(function() &#123;</span><br><span class="line">		location.href = &apos;https://www.domain.com/site/download?force=1&apos;;</span><br><span class="line">	&#125;, 1000);</span><br><span class="line">&#125;, false);</span><br></pre></td></tr></table></figure>
+<p>和Web端的同学一开始怎么也搞不定点击按钮跳转，找了好久终于发现为了提高手机端Web页面的点击响应速度，我们的Web端默认是使用touch事件来代替click的，但是在Universal Links的跳转中必须使用click。<br>另外，页面初始页和要跳转的页的域名必须是不同的，否则这个跳转事件也不会调起对应的App！另外，在进行Universal Links的调试时，建议先删除App，然后重新编译，运行。</p>
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>稍稍总结一下，Universal Links的工作原理大体上就是，App第一次启动后，发现自己是支持Associated Domains的，就去Associated Domains中描述的域名的根目录去下载一个名叫apple-app-site-association的文件，之后系统运行的Safari，其他应用的SFSafariViewController, WKWebView, 或者UIWebView都会受到这个apple-app-site-association文件的影响，在用户点击那个跳转的链接时，系统就会启动对应的App。<br>不得不说，以后每个版本的What’s New还是必须得看得更加仔细一些，同时需要大大提高对于新技术的敏感度。<br>最后的最后，再次感慨一下腾讯确实强大，但是还是苹果爸爸更屌！</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.nero.wiki/2016/01/21/小谈Protocol-Oriented-Programming-in-Swift/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nero Li">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nero's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/01/21/小谈Protocol-Oriented-Programming-in-Swift/" itemprop="url">
+                  小谈Protocol-Oriented Programming in Swift
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-01-21 22:32:10" itemprop="dateCreated datePublished" datetime="2016-01-21T22:32:10+08:00">2016-01-21</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-02 11:48:13" itemprop="dateModified" datetime="2018-05-02T11:48:13+08:00">2018-05-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>最近和老刘约好希望能够每周能够在这里留下点什么，往日的鸽王老刘上周竟然没有鸽！<br>反倒是我周末因为忘带电脑，导致无力一更，这周又天天加班到爆炸，竟然拖了大半周，趁着明天公司要开拔去开年会，今天早早溜了回来，想着不能再欠着了，今日就把这一更搞定吧~</p>
+<p>小割一发</p>
+<hr>
+<p>今天就就着WWDC的Protocol-Oriented Programming in Swift来小谈一记。<br>说到Protocol-Oriented Programming，就不得不提到与它对应的Class-Oriented Programming（又或者说Object-oriented programming），想到当年刚刚接触C++的时候，博主就对C++中的Class表示了赞叹，可以把一个个对象抽象出来，把一些方法封装起来，可以非常方便而且结构清晰地解决问题，重点是OOP，听起来就屌屌的啊，绝对的装逼一大利器。首先，我们来看看在传统OC上的Class都能够帮我做些什么</p>
+<p><strong>Encapsulation：</strong>封装显然不必多说，Class最最基本的属性就是封装了。<br><strong>Access Control：</strong>这也不必多提，就像平时开车的时候踩了刹车，刹车灯就亮了一样，显然造汽车的时候给踩刹车这件行为加上了Setter方法，当刹车状态发生变化的时候，就顺便把刹车灯的状态也做了改变。<br><strong>Abstraction：</strong>抽象自然也不需要多提，Class本身就是用来定义一件事物的抽象特点的。<br><strong>Namespace：</strong>这点主要是用来解决命名冲突，例如ClassA可以定义一个叫sort的方法，ClassB也可以定义自己的sort方法。<br><strong>Expressive Syntax：</strong>这点我偷偷地认为大约就是用Class来封装一些实体的对象，能够让后续代码的可维护性提高，更加便于使用人类可以理解的语法来表达一些行为。例如：定义了一个Person对象，那么这个对象的name，age等等属性就非常顺理成章了，同时eat，sleep这些方法在我们的语法中也就很正常了。<br><strong>Extensibility：</strong>在OC中对于Class的扩展还是非常方便和实用了，可以subclass，可以category，也可以extension等等。<br>当然，以上提到的种种到了Swift中之后就不再是Class的特权了，在Swift中，Struct甚至是Enum都可以轻松拥有上述的能力。</p>
+<p>于是乎，似乎在Swift中，Class留下的唯一优势就是Inheritance了，抽象好父类，然后子类再进行继承，父类可以定义一些通用的方法，如果子类不需要做特殊的事情，直接就可以不用管，如果子类要做的事情和父类不一样，那么将这些不一样的点单独再抽象出来，子类override就可以了，这样解决起问题来，简明而且优雅，简直不能更赞！</p>
+<p>但是继承在给我们带来便利的同时，也不是完全没有开销的，我们先撇开那些因为水平不够而做出不合理的封装和继承不谈，哪怕是经过良好思考和设计的继承也不得不面对一些问题，其中一个问题便是Implicit Sharing，在日常实践中，在一个Class中保存一些数据必然是无法避免的，同时，如果做了继承，就很难避免子类本身是不需要完全继承父类的所有数据这个问题，往往都是子类中包含了很多本身完全用不到，但是却又不得不从父类继承而来的数据指针，OC为了性能的考虑对于这部分共享的数据是通过Implicit Sharing也就是隐式共享来实现的，也就是说子类本身不会再去拥有一份这些数据，而是通过隐式共享来共用父类的，但是一旦出现了共享，就势必会出现竞争，一旦出现竞争，为了保证数据的安全，就不得不再引入lock，一旦引入了lock，又势必会降低性能，甚至出现是死锁的情况。以至于Apple在他的官方开发文档中都做出了如下的声明</p>
+<blockquote>
+<p>It is not safe to modify a mutable collection while enumerating through it. Some enumerators may currently allow enumeration of a collection that is modified, but this behavior is not guaranteed to be supported in the future</p>
+</blockquote>
+<p>另外，继承还有另外的一个问题，那就是一个儿子只能有一个老子——子类不可以从多个父类继承。同时，子类与父类的继承关系只能在子类被设计的时候就定义好，也就是儿子在出生的时候就确定了自己的唯一亲身父亲，是不可以再以后的成长过程中再去认个老子当自己的亲身老爹！那么，子类在后续开发过程中无论怎么扩展，都无法改变继承关系，不能引入更多抽象封装，除非对父类进行修改，但是一旦我们没有父类的源代码，那就只能蒙逼了！</p>
+<p>再然后，在子类中Override父类的的一些方法的时候也必须小心翼翼，否则非常容易导致父类的业务逻辑链发生断裂，导致整个业务无法正常完成，甚至于，在子类中很难去判断，哪些方法是可以重写的，哪些方法是不能重写的。</p>
+<p>还有一点，在Swift中，因为继承带来的多态会导致编译器类型检查出现Error，例如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">class Orderd &#123;</span><br><span class="line">    func precedes(other: Orderd) -&gt; Bool &#123; fatalError(&quot;implement me!&quot;)&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class Number : Orderd &#123;</span><br><span class="line">    var value: Double = 0</span><br><span class="line">    override func precedes(other: Orderd) -&gt; Bool &#123;</span><br><span class="line">        return value &lt; other.value</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>其中， return value &lt; other.value编译器就一定会报错，为了解决这个Error，我们只能将代码改成</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">class Orderd &#123;</span><br><span class="line">    func precedes(other: Orderd) -&gt; Bool &#123; fatalError(&quot;implement me!&quot;)&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class Number : Orderd &#123;</span><br><span class="line">    var value: Double = 0</span><br><span class="line">    override func precedes(other: Orderd) -&gt; Bool &#123;</span><br><span class="line">        return value &lt; (other as! Number).value</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>但是显然这种强转是不安全的，因为谁也不知道Order又会被其他那个阿猫阿狗给继承，而那个类中又是否有value这个属性。 好了，给继承挑了这么多毛病，我们该谈谈Swift中的Protocol-Oriented Programming了。 首先，在Swift中，当你需要去抽象对象的时候，第一反映不应该想到Class，而是应该想到Protocol。对于上面提到的例子，如果我们使用Protocol来实现的话，就会变成这样：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">protocol Orderd &#123;</span><br><span class="line">    func precedes(other: Self) -&gt; Bool</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">struct Number : Orderd &#123;</span><br><span class="line">    var value: Double = 0</span><br><span class="line">    func precedes(other: Number) -&gt; Bool &#123;</span><br><span class="line">        return value &lt; other.value</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>而这个Protocol就会变成这样：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">func binarySearch(sortedKeys:[T], forKey k: T) -&gt; Int &#123;</span><br><span class="line">    var lo = 0</span><br><span class="line">    var hi = sortedKeys.count</span><br><span class="line">    while hi &gt; lo &#123;</span><br><span class="line">        let mid  = lo + (hi - lo) / 2</span><br><span class="line">        if sortedKeys[mid].precedes(k) &#123; lo = mid + 1 &#125;</span><br><span class="line">        else &#123;hi = mid&#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return lo</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h4><p>好吧，其中本文主要都在介绍继承的side effect，并没有太多提到Protocol-Oriented Programming的优点，不过，Protocol-Oriented Programming没有上面提到的那些缺点应该就可以算是它的优点了吧^_^，下面附上WWDC2015年的视频链接，有兴趣的可以自己再去看看。<br><a href="https://developer.apple.com/videos/play/wwdc2015-408/" target="_blank" rel="noopener">https://developer.apple.com/videos/play/wwdc2015-408/</a></p>
+<h4 id="最后的最后"><a href="#最后的最后" class="headerlink" title="最后的最后"></a>最后的最后</h4><p>在研究OOP的缺点的时候，看到了一个专业术语，叫做<a href="https://baike.baidu.com/item/内存墙" target="_blank" rel="noopener">内存墙</a>，有兴趣的同学可以自己点链接去看。下面附上一张图片来说明内存的进步速度是远远比不上CPU的，而OOP的语言在最初设计的时候并没有考虑到这个问题，可能会导致在内存的使用上并不能达到机器的最大性能，而导致性能有所削减，具体的就不再展开，有兴趣的可以去知乎上看看这个哥们的帖子：<a href="https://www.zhihu.com/question/20275578/answer/27046327" target="_blank" rel="noopener">面向对象编程的弊端是什么？-Milo Yip的回答</a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.nero.wiki/2016/01/13/关于大数据去重的两三事/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nero Li">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nero's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/01/13/关于大数据去重的两三事/" itemprop="url">
+                  关于大数据去重的两三事
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-01-13 11:28:09" itemprop="dateCreated datePublished" datetime="2016-01-13T11:28:09+08:00">2016-01-13</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-02 11:48:13" itemprop="dateModified" datetime="2018-05-02T11:48:13+08:00">2018-05-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>P.S. 下文提到的数据基于iPhone 6S， iOS9.2（12C75）</p>
+<p>OK, 转入正题，最近博主在公司里接到一个任务，需要在一个大约4万条数据的数据库中快速将数据Fetch出来，载入内存之中，然后根据这些数据的某一个字段进行快速排重检查，并把重复的对象进行分组显示。</p>
+<p>接到这个任务，博主的第一反应就是把所有数据都取出来，然后把需要进行去重排序的那个值作为NSDictionary的Key，然后将那些对象组成一个Array，作为这个Key的Value，大致的代码如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">NSMutableDictionary *result = [[NSMutableDictionary alloc] init];</span><br><span class="line">NSMutableArray *allData = [self allData];</span><br><span class="line">for (Object *object in allData)</span><br><span class="line">&#123;</span><br><span class="line">    NSMutableArray *oneGroupObjects = result[object.someKey];</span><br><span class="line">    if (oneGroupObjects == nil)</span><br><span class="line">    &#123;</span><br><span class="line">        oneGroupObjects = [[NSMutableArray alloc] init];</span><br><span class="line">    &#125;</span><br><span class="line">    [oneGroupObjects addObject:object];</span><br><span class="line">    </span><br><span class="line">    [result setObject:oneGroupObjects forKey:object.someKey];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>OK, 搞定！</p>
+<p>编译，安装，走你！</p>
+<p>一看时间3s多一点点, 博主认为这个时间还算可以接受，毕竟在手机上，毕竟4万多条数据呢。</p>
+<p>可是博主的Boss们可不这么认为，才4万多条数据，竟然就要话这么长时间！</p>
+<p>没办法，改吧~</p>
+<p>中间复杂的过程就不多赘述了，说说最后的结果吧。</p>
+<p>首先，还是用CoreData把所有数据取出来，然后丢到一个容器里，丢容器里的原因一个是为了后续的遍历，另一个原因就是为了保证这些对象不会被ARC给自动释放了，为什么不能被释放？我们下面再说。<br>接着遍历这些取出来的数据，然后将数据组装到C语言的struct中，将这个这个对象的内存地址作为这个struct的ID。<br>然后将需要排序的值做一次快排，然后就能够根据顺序，将相同的组分出来了。<br>然后，就是将C的struct中的那个ID对象再转回CoreData对象，对！这就是为什么那些CoreData对象不能被自动释放的原因，这个内存地址是作为链接C语言算法和NSManagedObject对象的桥梁！<br>具体回转的代码如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">void *p = (void *)( *oneResult);</span><br><span class="line">NSManagedObject *obj = (__bridge NSManagedObject *)p;</span><br></pre></td></tr></table></figure>
+<p>OK，搞定！<br>再走你！0.4s，是不是非常炫！</p>
+<h4 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h4><p>Apple提供的各种容器提供了非常方便的各种方法，但是这些封装也是以性能损失为代价的，所以在处理非常大量的数据的时候还是应该对于特殊的情况，进行特殊处理。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.nero.wiki/2016/01/13/使用一个数组过滤另一个数组/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nero Li">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nero's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/01/13/使用一个数组过滤另一个数组/" itemprop="url">
+                  使用一个数组过滤另一个数组
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-01-13 10:20:19" itemprop="dateCreated datePublished" datetime="2016-01-13T10:20:19+08:00">2016-01-13</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-02 11:48:13" itemprop="dateModified" datetime="2018-05-02T11:48:13+08:00">2018-05-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>话不多说，直接上代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">NSMutableArray *resultArray = [[NSMutableArray alloc] init];</span><br><span class="line">NSArray *array = @[@&quot;a&quot;,@&quot;a&quot;,@&quot;c&quot;,@&quot;d&quot;,@&quot;e&quot;,@&quot;f&quot;,@&quot;g&quot;,@&quot;h&quot;];</span><br><span class="line">NSArray *secondArray = @[@&quot;a&quot;, @&quot;c&quot;, @&quot;f&quot;];</span><br><span class="line">int j = 0;</span><br><span class="line">for (int i = 0; i &lt; [array count]; ++i)</span><br><span class="line">&#123;</span><br><span class="line">    NSString *firstString = array[i];</span><br><span class="line">    NSString *secondString = secondArray[j];</span><br><span class="line">    if ([firstString isEqualToString:secondString]) &#123;</span><br><span class="line">        [resultArray addObject:firstString];</span><br><span class="line">    &#125;</span><br><span class="line">    else if ([firstString compare:secondString] == NSOrderedDescending)</span><br><span class="line">    &#123;</span><br><span class="line">        if (j == [secondArray count] - 1)</span><br><span class="line">        &#123;</span><br><span class="line">            break;</span><br><span class="line">        &#125;</span><br><span class="line">        for (int k = j + 1; k &lt; [secondArray count]; ++k)</span><br><span class="line">        &#123;</span><br><span class="line">            secondString = secondArray[k];</span><br><span class="line">            if ([firstString isEqualToString:secondString])</span><br><span class="line">            &#123;</span><br><span class="line">                j = k;</span><br><span class="line">                [resultArray addObject:firstString];</span><br><span class="line">                break;</span><br><span class="line">            &#125;</span><br><span class="line">            else if([firstString compare:secondString] == NSOrderedAscending)</span><br><span class="line">            &#123;</span><br><span class="line">                j = k;</span><br><span class="line">                break;</span><br><span class="line">            &#125;</span><br><span class="line">            j = k;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">NSLog(@&quot;%@&quot;, resultArray);</span><br></pre></td></tr></table></figure>
+<p>我们来看看算法的复杂度：</p>
+<p>如果做两个数组的遍历，显然算法复杂度为：O(m * n)</p>
+<p>使用上述的办法需要先将两个数组进行排序（假设使用快排），因此算法的复杂度为：O(n(logn + n) + m(logm + m)) = O(nlogn + mlogm)</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.nero.wiki/2015/12/24/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nero Li">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nero's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/12/24/hello-world/" itemprop="url">
+                  Hello World
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2015-12-24 19:17:06" itemprop="dateCreated datePublished" datetime="2015-12-24T19:17:06+08:00">2015-12-24</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-02 11:48:13" itemprop="dateModified" datetime="2018-05-02T11:48:13+08:00">2018-05-02</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/avatar.jpg"
+                alt="Nero Li" />
+            
+              <p class="site-author-name" itemprop="name">Nero Li</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">11</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/nerolee" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:nerolee@me.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Nero Li</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.7.1</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Pisces</a> v6.2.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.2.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.2.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.2.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.2.0"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.2.0"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
